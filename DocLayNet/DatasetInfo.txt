@@ -1,0 +1,9 @@
+I used docling-project/DocLayNet-v1.1 dataset for this project. 
+
+test-data: 
+size: 885 MB, and follow the url to download the file
+https://huggingface.co/datasets/docling-project/DocLayNet-v1.1/blob/main/data/test-00001-of-00002-b2396409212624ed.parquet
+
+val-data:
+size: 765 MB, and follow the url to download the file
+https://huggingface.co/datasets/docling-project/DocLayNet-v1.1/blob/main/data/val-00000-of-00003-773d4c8bcd94c1c8.parquet  
