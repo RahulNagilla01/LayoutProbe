@@ -1,6 +1,6 @@
 # LayoutProbe
 
-I was recently reading the IndicDLP paper out of CVIT (IIIT Hyderabad), and it got me thinking. When you train a Vision Transformer on document layouts, what is actually happening under the hood? Is it genuinely learning the universal concept of a "table," or is it just memorizing what tables happen to look like in the specific dataset you fed it? I decided to put together a small experiment to find out.
+When you train a Vision Transformer on document layouts, what is actually happening under the hood? Is it genuinely learning the universal concept of a "table," or is it just memorizing what tables happen to look like in the specific dataset you fed it? I decided to put together a small experiment to find out.
 ---
 
 ## What is this project in simple words?
