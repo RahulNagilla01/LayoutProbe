@@ -143,7 +143,7 @@ Do tables from all domains look the same to the model, or does it still see them
 
 ![Table Clustering](results/table_clustering.png)
 
-This is the most honest result of the whole project. "Table" is our best-performing layout class by far (F1 = 0.77 on unseen domains). But look at this plot: financial report tables (blue) form their own massive, separate blob. Manual tables (pink) cluster at the top, and law tables (purple) are off somewhere else. Even our most accurate class is still completely divided by domain underneath. The model never truly learned what a table is in a general sense. It just learned what a table looks like in these specific document types.
+This is the most honest result of the whole project. Text and table are the best transferring classes, with F1 of 0.79 and 0.77 respectively on unseen domains.. But look at this plot: financial report tables (blue) form their own massive, separate blob. Manual tables (pink) cluster at the top, and law tables (purple) are off somewhere else. Even our most accurate class is still completely divided by domain underneath. The model never truly learned what a table is in a general sense. It just learned what a table looks like in these specific document types.
 
 ### Per-class F1 on Unseen Domains
 
