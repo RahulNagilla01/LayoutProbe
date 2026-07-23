@@ -5,13 +5,13 @@ When you train a Vision Transformer on document layouts, what is actually happen
 
 ## What is this project in simple words?
 
-Imagine that I am teaching someone to identify furniture by showing them photos from a Restuarant and Office Space then asking them to do the same but in a hospital, This is the core idea of this project but applied to ViT and document analysis. 
+Imagine that I am teaching someone to identify furniture by showing them photos from a Restaurant and Office Space then asking them to do the same but in a hospital, This is the core idea of this project but applied to ViT and document analysis. 
 
-I trained ViT on only kinds or domains of documents, completely froze it's leaning and then looked under the hood. The goal of this project was to decode how model stored this information.
+I trained ViT on only two domains of documents, completely froze it's learning and then looked under the hood. The goal of this project was to decode how model stored this information.
 Questions are, 
 1. Can I extract the layout class?  
 2. Can I Identify the original type of document(domain) ?
-3. Does model keep this two concepts seperated or Inseparably tangled together? 
+3. Does model keep this two concepts separated or Inseparably tangled together? 
 
 ---
 
